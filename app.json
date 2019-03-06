@@ -41,10 +41,16 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/map/index",
-        "iconPath": "images/nav/nav-off.png",
-        "selectedIconPath": "images/nav/nav-on.png",
-        "text": "导航"
+        "pagePath": "pages/shop-cart/index",
+        "iconPath": "images/nav/cart-off.png",
+        "selectedIconPath": "images/nav/cart-on.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/order-list/index",
+        "iconPath": "images/nav/order-off.png",
+        "selectedIconPath": "images/nav/order-on.png",
+        "text": "订单"
       },
       {
         "pagePath": "pages/my/index",

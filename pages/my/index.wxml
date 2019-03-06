@@ -41,6 +41,10 @@
 
   <view style="height:20rpx;background: #eee;width:100%;"></view>
 
+  <view class="my-item" style="border:none;padding:0rpx;margin:0rpx;background:none;border:none;height:auto;line-height:auto;">
+    <button class="btn" type='warn' bindtap="goToShop">去店里</button>
+  </view>
+
   <view wx:if="{{!userMobile}}" class="my-item" style="border:none;padding:0rpx;margin:0rpx;background:none;border:none;height:auto;line-height:auto;">
     <button class="btn" type='warn' open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">绑定手机号码</button>
   </view>
