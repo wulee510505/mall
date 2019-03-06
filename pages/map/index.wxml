@@ -1,0 +1,10 @@
+<!--pages/map/index.wxml-->
+<view class="container">
+<map id="map" longitude="107.555720" latitude="33.223250" markers="{{markers}}"
+scale="18"  style="width: 100%; height: 300px;">
+</map>
+<text  class='text'>欧典西饼屋\n 引领时尚艺术，缔造美味蛋糕\n 电话:15029365848   13571602284 \n地址：朱鹮大酒店东侧欧典西饼屋</text>
+<button class='navbtn'  bindtap="click">
+  <view>导航</view>
+</button>
+</view>

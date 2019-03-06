@@ -1,0 +1,40 @@
+/* pages/map/index.wxss */
+
+.container {
+  background-color: #F2f2f2;
+  height: 100%;
+  display: flex;
+}
+
+.text {
+  width: 100%;
+  padding-left: 20rpx;
+  padding-right:20rpx; 
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  background-color: rgb(26, 25, 24);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+
+.navbtn {
+  width: 90%;
+  height: 72rpx;
+  margin-top: 20rpx;
+  background-color: burlywood;
+  color: white;
+  border-radius: 16rpx;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbtn::after {
+  border-radius: 48rpx;
+  border: 0; 
+}
