@@ -8,7 +8,7 @@
 	flex-direction: column;
 	padding: 50rpx 0;
 	align-items: center;
-	background: #e85654;
+	background: #69C3AA;
   width: 750rpx;
 }
 
@@ -60,7 +60,7 @@
   height: 72rpx;
   margin-top: 20rpx;
   margin-bottom: 20rpx; 
-  background-color: burlywood;
+  background-color: #69C3AA;
   color: white;
   font-size: 30rpx;
   border-radius: 16rpx;
