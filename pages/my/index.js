@@ -145,11 +145,6 @@ Page({
       }
     })
   },
-  goToShop: function () {
-    wx.navigateTo({
-      url: "/pages/map/index"
-    })
-  },
   relogin:function(){
     wx.navigateTo({
       url: "/pages/authorize/index"
